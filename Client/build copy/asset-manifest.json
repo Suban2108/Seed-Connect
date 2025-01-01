@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d51ecbd0.css",
+    "main.js": "/static/js/main.c924301e.js",
+    "static/js/453.d750cf87.chunk.js": "/static/js/453.d750cf87.chunk.js",
+    "static/media/back-imgs.jpg": "/static/media/back-imgs.bb9863a4f570876cc2eb.jpg",
+    "static/media/new (1).png": "/static/media/new (1).0adff6fa3a9405489639.png",
+    "static/media/watermelon.jpg": "/static/media/watermelon.382ded1b6bdeecc1c5b1.jpg",
+    "static/media/mango.webp": "/static/media/mango.89b13ea2596b7fe8ec5d.webp",
+    "static/media/potatoes.jpg": "/static/media/potatoes.847094dcd75368609631.jpg",
+    "static/media/onion.webp": "/static/media/onion.9673919f2fa5327767d1.webp",
+    "static/media/hellofarmer.png": "/static/media/hellofarmer.565332106242fd790d8a.png",
+    "static/media/tomatoes.webp": "/static/media/tomatoes.677cda05abd15d8a755b.webp",
+    "static/media/customer.png": "/static/media/customer.5faf09a7795d28bf5a2b.png",
+    "static/media/logo.png": "/static/media/logo.3ff83e1e982dd32f6b8f.png",
+    "static/media/logo_big.png": "/static/media/logo_big.3ff83e1e982dd32f6b8f.png",
+    "static/media/n-profile.png": "/static/media/n-profile.2f9370873bd47afd8dca.png",
+    "static/media/banana.jpg": "/static/media/banana.ff834193745b54cd85ed.jpg",
+    "static/media/sporuts.jpeg": "/static/media/sporuts.9c85b45dcab26eeaf6dc.jpeg",
+    "static/media/apples.jpeg": "/static/media/apples.3c328b74bee5d9b8f5f9.jpeg",
+    "static/media/grapes.jpeg": "/static/media/grapes.44998e3e10df1ae2e449.jpeg",
+    "static/media/cucumber.jpeg": "/static/media/cucumber.438d423d2c5468b24857.jpeg",
+    "static/media/carrots.jpeg": "/static/media/carrots.977266280b258576c1bc.jpeg",
+    "index.html": "/index.html",
+    "main.d51ecbd0.css.map": "/static/css/main.d51ecbd0.css.map",
+    "main.c924301e.js.map": "/static/js/main.c924301e.js.map",
+    "453.d750cf87.chunk.js.map": "/static/js/453.d750cf87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d51ecbd0.css",
+    "static/js/main.c924301e.js"
+  ]
+}
