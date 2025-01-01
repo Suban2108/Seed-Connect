@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
 import { AuthContext } from '../../Context/AuthContext'; // Import AuthContext
 import toast from 'react-hot-toast';
@@ -8,7 +8,6 @@ const Item = (props) => {
   const { addToCart } = useContext(ShopContext);
   const { isLoggedIn } = useContext(AuthContext); // Get authentication status
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const navigate = useNavigate(); // For navigation
 
   const showModal = () => {
     setIsModalOpen(true);

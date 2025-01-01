@@ -67,7 +67,6 @@ const Courses = () => {
     const { isLoggedIn } = useContext(AuthContext); // Get authentication status
     const { addToCart } = useContext(ShopContext);
 
-    const navigate = useNavigate();
 
     // Grouping the courses by their category
     const coursesByCategory = groupByCategory(all_courses);

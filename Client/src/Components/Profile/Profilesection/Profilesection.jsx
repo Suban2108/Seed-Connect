@@ -1,6 +1,5 @@
 // ProfileSection.js
 import React from 'react';
-import profileImage from '../../Assets/hellofarmer.png'
 import image from '../../Assets/new (1).png'
 
 const ProfileSection = () => {

@@ -7,14 +7,13 @@ import data from '../Assets/allproduct'; // Assuming the file name is allproduct
 import './detail.css';
 import NewCollections from '../Home/NewCollections/NewCollections';
 import toast, { Toaster } from 'react-hot-toast'; // Import Toaster for notifications
-import default_image from '../Assets/n-profile.png';
+
 
 const ProductDisplay = () => {
     const { id } = useParams();
     const { addToCart } = useContext(ShopContext);
     const { isAuthenticated } = useContext(AuthContext); // Access authentication state
-    const [activeTab, setActiveTab] = useState('description'); // State for managing active tab
-    const navigate = useNavigate();
+
 
     // Find the product in the data array using the ID from the URL
     const product = data.find((item) => item.id === parseInt(id));
@@ -37,10 +36,6 @@ const ProductDisplay = () => {
             </div>
         );
     }
-
-    const handleTabClick = (tab) => {
-        setActiveTab(tab);
-    };
 
     const handleAddToCart = () => {
         if (isAuthenticated) {

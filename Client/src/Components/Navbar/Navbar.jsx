@@ -4,7 +4,7 @@ import logo from '../Assets/logo.png';
 import { ShopContext } from '../Context/ShopContext';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthContext';
-import toast,{Toaster} from 'react-hot-toast'; 
+import toast from 'react-hot-toast'; 
 
 const Navbar = () => {
     const { getTotalCartItem } = useContext(ShopContext);
@@ -22,17 +22,6 @@ const Navbar = () => {
 
     const isActive = (path) => location.pathname === path;
 
-    const handleAddToCart = (e, productId) => {
-      if (!isLoggedIn) {
-          // If the user is not logged in, show an error message
-          toast.error('Please log in or create an account to add products to the cart!', {
-              style: { background: '#e63946', color: '#fff' },
-              duration: 3000 // Display duration for error message
-          });
-          // navigate('/login');
-          return; // Exit the function early
-      }
-  };
 
     const handleLogout = async () => {
         try {
