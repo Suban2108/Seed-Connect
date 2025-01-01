@@ -1,0 +1,253 @@
+h2, h3, h4, p {
+    margin: 0;
+    display: inline-block;
+    font-size: 25px;
+    text-align: left;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    gap: 30px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(174, 174, 174) transparent;
+}
+
+.login-neu {
+    overflow-y: scroll;
+    border-radius: 10px;
+    /* box-shadow: 8px 8px 100px rgb(212, 212, 212); */
+    margin-top: 50px;
+    width: 40vw !important;
+}
+
+.login-container {
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: -530px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='date'],
+form input[type='password'],
+form input[type='number'],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: 50px;
+    border: 2px solid #9a9a9a;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+textarea {
+    height: 200px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #9a9a9a;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    background-color: white;
+    cursor: pointer;
+}
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+}
+
+.login-name,
+.login-address,
+.login-cont-dob, .login-button {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.login-addr section {
+    gap: 20px;
+}
+
+.login-header {
+    padding: 20px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    width: 95%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.login-header h1 {
+    font-weight: 600;
+}
+
+section .login-div {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+label {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.login-guideline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-guideline label {
+    width: auto;
+}
+
+@media screen and (max-width:800px) {
+    .login-name,
+    .login-address,
+    .login-cont-dob,
+    .login-article {
+        flex-direction: column;
+    }
+}
+
+.login-file {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.login-file input {
+    position: relative;
+    top: -5px;
+}
+
+select {
+    border: 0.5px solid rgb(215, 215, 215);
+    width: 400px !important;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+.login-dropdown {
+    justify-content: space-between;
+}
+
+.login-butto {
+    width: 40%;
+    height: 50px !important;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 68, 255);
+    background: rgb(0, 68, 255);
+    font-size: 25px !important;
+    position: relative;
+    right: -205px;
+    color: white;
+    border-radius: 10px;
+}
+
+.login-butto:hover {
+    background-color: white;
+    color: rgb(0, 68, 255);
+}
+
+.login-already {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.login-already a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 25px;
+}
+
+.login-forgotPass{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+
+.login-forgotPass a{
+    text-decoration: none;
+}
+
+.login-thru_social_icons p{
+    color: rgb(163, 163, 163);
+    font-size: 20px !important;
+   
+}
+
+.login-thru_social_icons img{
+    position: relative;
+    right: -300px;
+    margin-top: 20px;
+}
+
+.eye_icon{
+    width:30px !important;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 62px;
+    cursor: pointer;
+}

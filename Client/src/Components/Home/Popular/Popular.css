@@ -1,0 +1,23 @@
+.popular-container {
+    background-color: #1f2937; /* Dark background */
+    padding: 2rem; /* More padding for spacing */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    font-size: 2rem; /* Adjust font size */
+    font-weight: 700; /* Bold font */
+    color: #fbbf24; /* Yellow color */
+}
+
+.popular-item {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 10%; /* Space between items */
+}
+
+hr {
+    margin: 1rem 0; /* Vertical spacing for the line */
+    border-top: 2px solid #fbbf24; /* Yellow line */
+}

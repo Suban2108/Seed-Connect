@@ -1,0 +1,35 @@
+.fixed {
+    position: fixed;
+}
+
+.top-5 {
+    top: 1.25rem; /* 5 x 0.25rem */
+}
+
+.right-5 {
+    right: 1.25rem; /* 5 x 0.25rem */
+}
+
+.bg-blue-500 {
+    background-color: #3b82f6; /* Tailwind blue-500 */
+}
+
+.text-white {
+    color: #ffffff; /* White text */
+}
+
+.p-4 {
+    padding: 1rem; /* 4 x 0.25rem */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* For rounded corners */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.z-50 {
+    z-index: 50; /* Ensures it's above other content */
+}

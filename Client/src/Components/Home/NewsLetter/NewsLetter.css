@@ -1,0 +1,13 @@
+.newsletter {
+    max-width: 1560px;
+    height:300px; /* Limit the width for better responsiveness */
+    margin: auto; /* Center the newsletter on the page */
+    align-content: center;
+    justify-content: center;
+    background-color: #1f2937;
+  }
+  
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Slightly transparent placeholder text */
+  }
+  

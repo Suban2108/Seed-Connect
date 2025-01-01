@@ -1,0 +1,43 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+    /* width: auto; */
+    margin: auto;
+    /* border: 0.5px solid rgb(157, 138, 138); */
+    border-radius: 20px;
+    height: 600px;
+  }
+  
+  .carousel-slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 25%; /* Three slides per view */
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 85%;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-10%);
+    width: 200px;
+  }
+  
+  .carousel-button.prev {
+    left: 100px;
+  }
+  
+  .carousel-button.next {
+    right: -60px;
+  }
+  
+  .carousel-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
